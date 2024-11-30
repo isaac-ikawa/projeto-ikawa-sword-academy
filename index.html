@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Ikawa Sword Academy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+     <style>
+         body{
+             font-family: 'Montserrat', sans-serif;
+         }
+         .section-header h2 {
+	font-size: 60px;
+	color: #333;
+	font-family: 'Allura', cursive;
+	font-weight: 900;
+	margin-bottom: 35px;
+}
+        .story-area {
+    overflow: hidden;
+    padding: 150px 0px;
+            height: 100vh;
+}
+.story-area .img-area {
+	max-height: 255px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.story-area .nav-tabs {
+    border: 0;
+}
+.story-area .nav-link {
+    border-radius: 0;
+    border: 2px solid #c72139 !important;
+    font-weight: 600;
+    font-size: 15px;
+    border: 0;
+    padding: 22px 15px;
+    transition: 0.3s;
+    color: #333;    
+}
+.story-area .nav-link:hover {
+    color: #c72139;
+}
+.story-area .nav-link.active {
+	color: #fff;
+	background: #c72139;
+}
+.story-area .nav-link:hover {
+    border-right: 4px solid #c72139;
+}
+.story-area .tab-pane.active {
+    -webkit-animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 0.5s ease-out;
+}
+.story-area .content h3 {
+    font-size: 26px;
+    color: #c72139;
+}
+.story-area .content p {
+    color: #333;
+}
+         .content a {
+             padding: 10px 25px;
+	display: inline-block;
+	background: #c72139;
+	color: #fff;	
+}
+         @media (max-width: 800px){
+             .story-area{
+                 overflow: visible;
+                 padding: 35px 0;
+             }
+         }
+    </style> 
+</head>
+<body>
+    
+    <section class="story-area">
+         <div class="container">
+           <div class="row">
+               <div class="container">
+                   <div class="col-lg-12 text-center">
+                       <div class="section-header">
+                           <h2>Ikawa Sword Academy</h2>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           
+            <div class="row">
+               <div class="col-sm-5 col-lg-3">
+                  <ul class="nav nav-tabs flex-column mb-3">
+                     <li class="nav-item">
+                        <a class="nav-link active show" data-toggle="tab" href="#tab-1">Kendo</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-2">Esgrima</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-3">Kali</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-4">Kobudo</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-sm-7 col-lg-9">
+                  <div class="tab-content">
+                     <div class="tab-pane active show" id="tab-1">
+                        <div class="row">
+                           <div class="col-lg-4">
+                              <div class="img-area">
+                                 <img src="1.jpg" alt="" class="img-fluid">
+                              </div>
+                           </div>
+                           <div class="col-lg-8 content">
+                              <h3 class="mt-3">Kendo</h3>
+                              <p>Kendo é uma arte marcial japonesa que significa "Caminho da Espada". Descende das técnicas dos samurais e usa uma espada de bambu (shinai) e uma armadura protetora (bogu). O treinamento inclui práticas de corte, duelos e formas tradicionais. O kendo enfatiza a disciplina, o respeito e o desenvolvimento do espírito, visando a melhoria pessoal através do rigoroso treinamento físico e mental.</p>
+                              <a href="#">Saiba Mais</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane" id="tab-2">
+                        <div class="row">
+                           <div class="col-lg-4">
+                              <div class="img-area">
+                                 <img src="2.jpg" alt="" class="img-fluid">
+                              </div>
+                           </div>
+                           <div class="col-lg-8 content">
+                              <h3 class="mt-3">Esgrima</h3>
+                             <p>A esgrima é um esporte de combate onde dois competidores lutam com espadas. Há três tipos principais de armas: florete, espada e sabre, cada uma com suas próprias regras e áreas de pontuação. A esgrima moderna evoluiu das técnicas de combate europeias e é um esporte olímpico que combina agilidade, precisão e estratégia. Os esgrimistas usam equipamentos de proteção e competem em pistas específicas, sendo a esgrima considerada um "jogo de xadrez físico" devido à necessidade de antecipar os movimentos do oponente</p>
+                             <a href="#">Saiba Mais</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane" id="tab-3">
+                        <div class="row">
+                           <div class="col-lg-4">
+                              <div class="img-area">
+                                 <img src="3.jpg" alt="" class="img-fluid">
+                              </div>
+                           </div>
+                           <div class="col-lg-8 content">
+                              <h3 class="mt-3">Kali</h3>
+                              <p>Kali, também conhecida como Arnis ou Eskrima, é uma arte marcial filipina focada em técnicas de luta com armas como bastões, facas e espadas. Originária das Filipinas, é valorizada pela sua eficácia em defesa pessoal e versatilidade em combate. O treinamento envolve formas, sparring e drills para aprimorar habilidades de golpes, bloqueios e desarmes. Além de ser uma arte marcial prática, Kali é uma parte importante da cultura filipina e é praticada como esporte e arte.</p>
+                              <a href="#">Saiba Mais</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane" id="tab-4">
+                        <div class="row">
+                           <div class="col-lg-4">
+                              <div class="img-area">
+                                 <img src="4.jpg" alt="" class="img-fluid">
+                              </div>
+                           </div>
+                           <div class="col-lg-8 content">
+                              <h3 class="mt-3">Kobudo</h3>
+                              <p>Kobudo é uma arte marcial tradicional japonesa que se concentra no uso de armas antigas, como o bo, sai, nunchaku, tonfa e kama. Originado em Okinawa, está ligado ao Karate. O treinamento inclui técnicas de manipulação de armas, katas e aplicações práticas, enfatizando precisão, controle e coordenação. Além das habilidades técnicas, promove disciplina, respeito e crescimento pessoal. Praticar Kobudo melhora a força física, coordenação, concentração e autoconfiança, preservando as tradições culturais e marciais do Japão.</p>
+                              <a href="#">Saiba Mais</a>
+                           </div>
+                        </div>
+                     </div>                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+    
+    
+    
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
